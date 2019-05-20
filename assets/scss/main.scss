@@ -1,0 +1,39 @@
+//Library
+@import 'libs/bootstrap4/bootstrap-grid';
+@import 'libs/fa/fontawesome';
+
+//Abstract
+@import "abstract/variables";
+
+//Base
+@import 'base/base';
+@import 'base/typography';
+@import 'base/animations';
+
+
+//Mixins
+@import 'abstract/mixins';
+
+//Layout
+@import 'layout/top-nav';
+@import 'layout/footer';
+@import 'layout/navigation';
+
+//Components
+@import "components/notification";
+@import 'components/main-section';
+@import 'components/btn';
+@import 'components/page-header';
+@import 'components/service-box';
+@import 'components/feedback';
+@import 'components/page-footer';
+@import 'components/logo-bar';
+
+//Pages
+@import "pages/index";
+@import "pages/service";
+@import "pages/expect";
+@import "pages/gallery";
+@import "pages/feedback";
+@import "pages/contact";
+

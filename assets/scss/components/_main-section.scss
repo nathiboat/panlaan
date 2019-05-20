@@ -1,0 +1,55 @@
+.main-section {
+  margin-top: 1rem;
+  height: 78vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.81)
+  ), url(/img/hero.jpg);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 1% 90vh);
+  clip-path: polygon(0 0, 100% 0, 100% 95vh, 1% 90vh);
+
+  @media (max-width: 767px) {
+    height: 100vh;
+  }
+
+  &__box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $color-white;
+  }
+
+  &__contact {
+    transition: all 1s;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    margin-bottom: 5rem;
+
+    &:hover{
+      transform: scale(1.2);
+
+
+    }
+
+    .fas {
+      font-size: 5rem;
+    }
+
+    &-icon {
+      border-right: 1px solid white;
+      padding-right: 1.5rem;
+      padding-top: 0.5rem ;
+    }
+
+    &-number{
+      font-size: 1.8rem;
+    }
+
+  }
+}

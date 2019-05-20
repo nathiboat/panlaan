@@ -1,0 +1,38 @@
+.logo-bar {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+
+  &__logo-container {
+    display: inline-block;
+    margin:10px 10px;
+  }
+
+  &__logo {
+    max-width: 50px;
+
+    &-master {
+      width: 40px;
+    }
+    &-maestro {
+      width: 40px;
+    }
+    &-vpay {
+      width: 30px;
+    }
+
+    &-amex {
+      width: 40px;
+    }
+
+    &-dc {
+      width: 35px;
+    }
+
+    &-union-pay {
+      width: 45px;
+    }
+
+  }
+}

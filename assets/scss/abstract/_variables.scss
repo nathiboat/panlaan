@@ -1,0 +1,75 @@
+$color-primary: #31b3e4;
+$color-primary-light: #bbf2f8;
+$color-primary-dark: #2998ff;
+
+$color-secondary-light: #2998ff;
+$color-secondary-dark: #5643fa;
+
+$color-warning: #F5A623;
+
+$color-success: #7ED321;
+$color-success-dark: #417505;
+
+$color-bg-primary: #a9ddf3;
+$color-bg-secondary: #d9edf7;
+$color-bg-dark: #212121;
+$color-bg-light: #E0E0E0;
+$color-content-dark: #4A4A4A;
+$color-content-light: #fff;
+
+$color-dark: #4A4A4A;
+$color-light: #f8f8f8;
+
+$color-blue: #4A90E2;
+$color-red: #F5A402;
+$color-orange: #BA283D;
+$color-purple: #5B186A;
+$color-white: #fff;
+
+$color-opentrack-orange: #F5A402;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: 	#5f697a;
+$color-grey-light: 	#E0E0E0;
+$color-white: #fff;
+$color-black: #000;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999 ;
+$color-grey-dark-3: #333 ;
+$color-white: #fff;
+$color-black: #000;
+
+//Font
+$primary-font: 'Source Sans Pro', sans serif;
+
+$color-text: hsla(0,0%,0%,0.87);
+$color-text-muted: hsla(0,0%,0%,0.54);
+$color-text-inverse: hsla(0,100%,100%,1);
+$color-text-muted-inverse: hsla(0,100%,100%,0.7);
+
+//Navigation
+$color-events: $color-blue;
+$color-athletes: $color-red;
+$color-teams: $color-orange;
+$color-announcements: $color-purple;
+
+//Grid and layout
+$base-grid: 8px;
+$gutter-width: 2*$base-grid;
+
+//Styling
+$base-border-radius: 2px;
+$color-border: #e0e0e0;
+$golden-ratio: 1.6180339887;
+
+//Shadows
+$shadow-depth-1: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+$shadow-depth-2: 0 0 4px 0 rgba(0,0,0,0.12), 0 4px 4px 0 rgba(0,0,0,0.24);
+$shadow-reverse-depth-1: 0 0 2px 0 rgba(0,0,0,0.12), 0 -2px 2px 0 rgba(0,0,0,0.24);
+$shadow-field: inset 1px 1px 3px rgba(0, 0, 0, 0.5);

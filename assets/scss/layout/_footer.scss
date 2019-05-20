@@ -1,0 +1,36 @@
+.footer {
+  box-shadow: $shadow-reverse-depth-1;
+  position: relative;
+
+  &--dark {
+    color: $color-white;
+    background-color: $color-primary-dark;
+  }
+
+  &--light {
+    color: $color-black;
+    background-color: $color-content-light;
+  }
+
+  &__dark {
+    color: $color-white;
+    background-color: $color-content-dark;
+  }
+
+  &__logo-box {
+    //transform: translateX(50%) translateY(50%);
+  }
+
+  &__logo {
+    margin-right: 10px;
+    width: 4.5*$base-grid;
+    height: 4.5*$base-grid;
+    vertical-align: middle;
+  }
+
+  &__text{
+    font-family: $font-family-text;
+    font-size: 0.875rem;
+  }
+
+}

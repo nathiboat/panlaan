@@ -1,0 +1,33 @@
+.section-small  {
+  padding: 5rem 0;
+  background-color: $color-bg-secondary;
+  color: $color-primary;
+
+  .icon {
+    font-size: 5rem;
+    padding: 1rem 2rem;
+
+  }
+
+  .info {
+    color: $color-grey-dark;
+  }
+
+}
+
+.section-special {
+  padding: 3rem 0;
+}
+
+.section-offer {
+  padding: 5rem 0;
+  background-image:  linear-gradient(to right bottom,
+    rgba($color-grey-dark, 0.8),
+    rgba($color-black, 0.8)), url(/img/offer-bg.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: $color-primary-light;
+
+}
