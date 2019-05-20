@@ -12,15 +12,14 @@
         <div class="col-sm-4 col-xs-12 d-flex">
           <div class="info">
             <h3 class="text-uppercase small_section_title">Location</h3>
-            <h5><span class="glyphicon glyphicon-home"></span>  1118 Christchurch Road, Boscombe East, Bournemouth BH7 6DT  </h5>
+            <h5><span class="glyphicon glyphicon-home"></span>   </h5>
           </div>
         </div>
 
         <div class="col-sm-4 col-xs-12 ">
           <div class="info">
             <h3>CONTACT US</h3>
-            <h5> 01202 950 287 </h5>
-            <h5> 07909 381895 </h5>
+
           </div>
 
         </div>

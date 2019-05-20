@@ -38,11 +38,6 @@
             <service-box :service="service6"/>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-4 offset-lg-4">
-            <service-box :service="service7"/>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -74,59 +69,45 @@
       return {
         heading: 'Our Services',
         service1: {
-          name: 'Relaxing Full Body Oil Massage',
+          name: ' Full Body Massage with Oil Relaxing.',
           offer: [
-            { period: '90 Mins', price: '£60'},
-            { period: '60 Mins', price: '£40'},
+            { period: '90 Mins', price: '£75'},
+            { period: '60 Mins', price: '£45'},
             { period: '30 Mins', price: '£30'}
           ],
         },
         service2: {
-          name: 'Deep Tissue Massage with Hot Oils',
+          name: 'Thai Oil Massage.',
           offer: [
             { period: '90 Mins', price: '£75'},
             { period: '60 Mins', price: '£50'},
-            { period: '30 Mins', price: '£35'}
+            { period: '30 Mins', price: '£30'}
           ],
         },
         service3: {
-          name: 'Head & Shoulder Massage',
+          name: 'Head, Neck & Shoulder Massage.',
           offer: [
             { period: '90 Mins', price: '£75'},
             { period: '60 Mins', price: '£50'},
-            { period: '30 Mins', price: '£35'}
+            { period: '30 Mins', price: '£30'}
           ],
         },
         service4: {
-          name: 'Traditional Thai Full Body Massage',
+          name: 'Foot and Lower Lower Leg. Massage with Reflexology.',
           offer: [
-            { period: '90 Mins', price: '£90'},
-            { period: '60 Mins', price: '£60'},
-            { period: '30 Mins', price: '£40'}
+            { period: '60 Mins', price: '£50'},
           ],
         },
         service5: {
-          name: 'Thai Foot Massage',
+          name: 'Body Scrub',
           offer: [
-            { period: '90 Mins', price: '£90'},
             { period: '60 Mins', price: '£60'},
-            { period: '30 Mins', price: '£40'}
           ],
         },
         service6: {
-          name: 'Thai Herbal Compress Massage',
+          name: 'Thai Head Massage',
           offer: [
-            { period: '90 Mins', price: '£90'},
-            { period: '60 Mins', price: '£60'},
-            { period: '30 Mins', price: '£40'}
-          ],
-        },
-        service7: {
-          name: 'Hot Stone Massage',
-          offer: [
-            { period: '90 Mins', price: '£90'},
-            { period: '60 Mins', price: '£60'},
-            { period: '30 Mins', price: '£40'}
+            { period: '30 Mins', price: '£30'}
           ],
         }
       }

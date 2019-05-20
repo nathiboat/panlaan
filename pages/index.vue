@@ -26,7 +26,7 @@
             </div>
             <div class="info">
               <h3 class="text-uppercase small_section_title">Location</h3>
-              <h5><span class="glyphicon glyphicon-home"></span>  1118 Christchurch Road, Boscombe East, Bournemouth BH7 6DT  </h5>
+              <h5><span class="glyphicon glyphicon-home"></span>  location </h5>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
     <section class="section-special mb-5 py-5">
       <div class="text-center">
         <h2 class="heading-secondary mb-5">
-          We are special in Bournemouth
+          We are special.
         </h2>
       </div>
       <div class="container py-5">

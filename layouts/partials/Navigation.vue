@@ -28,7 +28,6 @@
           {name: 'Home', to: '/'},
           {name: 'Services', to: '/services'},
           {name: 'What to expect', to: '/expect'},
-          {name: 'Gallery', to: '/gallery'},
           {name: 'Client Feedback', to: '/feedback'},
           {name: 'Contact', to: '/contact'}
         ],
